@@ -3,7 +3,7 @@
     "$type": "0|SaveFile, Assembly-CSharp",
     "randomSeed": 0,
     "currentScene": "Part1_Cabin",
-    "playTime": 678.4225,
+    "playTime": 701.5862,
     "storyEvents": {
         "$id": 1,
         "$type": "1|DiskCardGame.StoryEventsData, Assembly-CSharp",
@@ -40,7 +40,7 @@
         "eventData": {
             "$id": 4,
             "$type": "4|System.Collections.Generic.List`1[[DiskCardGame.DialogueEventsData+EventSaveData, Assembly-CSharp]], mscorlib",
-            "$rlength": 17,
+            "$rlength": 19,
             "$rcontent": [
                 {
                     "$id": 5,
@@ -143,15 +143,27 @@
                     "$type": 5,
                     "eventId": "StoatPlayed",
                     "repeatCount": 1
+                },
+                {
+                    "$id": 22,
+                    "$type": 5,
+                    "eventId": "NewRunDefault",
+                    "repeatCount": 1
+                },
+                {
+                    "$id": 23,
+                    "$type": 5,
+                    "eventId": "NewRunDealtStinkbug",
+                    "repeatCount": 1
                 }
             ]
         }
     },
     "progressionData": {
-        "$id": 22,
+        "$id": 24,
         "$type": "6|DiskCardGame.ProgressionData, Assembly-CSharp",
         "learnedAbilities": {
-            "$id": 23,
+            "$id": 25,
             "$type": "7|System.Collections.Generic.List`1[[DiskCardGame.Ability, Assembly-CSharp]], mscorlib",
             "$rlength": 3,
             "$rcontent": [
@@ -161,7 +173,7 @@
             ]
         },
         "learnedMechanics": {
-            "$id": 24,
+            "$id": 26,
             "$type": "8|System.Collections.Generic.List`1[[DiskCardGame.MechanicsConcept, Assembly-CSharp]], mscorlib",
             "$rlength": 14,
             "$rcontent": [
@@ -182,7 +194,7 @@
             ]
         },
         "learnedCards": {
-            "$id": 25,
+            "$id": 27,
             "$type": "9|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
             "$rlength": 11,
             "$rcontent": [
@@ -200,7 +212,7 @@
             ]
         },
         "introducedCards": {
-            "$id": 26,
+            "$id": 28,
             "$type": 9,
             "$rlength": 6,
             "$rcontent": [
@@ -213,7 +225,7 @@
             ]
         },
         "introducedConsumables": {
-            "$id": 27,
+            "$id": 29,
             "$type": 9,
             "$rlength": 6,
             "$rcontent": [
@@ -227,13 +239,13 @@
         }
     },
     "currentRun": {
-        "$id": 28,
+        "$id": 30,
         "$type": "10|DiskCardGame.RunState, Assembly-CSharp",
         "playerDeck": {
-            "$id": 29,
+            "$id": 31,
             "$type": "11|DiskCardGame.DeckInfo, Assembly-CSharp",
             "cardIds": {
-                "$id": 30,
+                "$id": 32,
                 "$type": 9,
                 "$rlength": 4,
                 "$rcontent": [
@@ -243,51 +255,57 @@
                     "Bullfrog"
                 ]
             },
-            "boonIds": null,
+            "boonIds": {
+                "$id": 33,
+                "$type": "12|System.Collections.Generic.List`1[[DiskCardGame.BoonData+Type, Assembly-CSharp]], mscorlib",
+                "$rlength": 0,
+                "$rcontent": [
+                ]
+            },
             "cardIdModInfos": {
-                "$id": 31,
-                "$type": "12|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.List`1[[DiskCardGame.CardModificationInfo, Assembly-CSharp]], mscorlib]], mscorlib",
+                "$id": 34,
+                "$type": "13|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.List`1[[DiskCardGame.CardModificationInfo, Assembly-CSharp]], mscorlib]], mscorlib",
                 "comparer": {
-                    "$id": 32,
-                    "$type": "13|System.Collections.Generic.InternalStringComparer, mscorlib"
+                    "$id": 35,
+                    "$type": "14|System.Collections.Generic.InternalStringComparer, mscorlib"
                 },
                 "$rlength": 4,
                 "$rcontent": [
                     {
-                        "$k": "Wolf",
-                        "$v": {
-                            "$id": 33,
-                            "$type": "14|System.Collections.Generic.List`1[[DiskCardGame.CardModificationInfo, Assembly-CSharp]], mscorlib",
-                            "$rlength": 0,
-                            "$rcontent": [
-                            ]
-                        }
-                    },
-                    {
-                        "$k": "Stinkbug_Talking",
-                        "$v": {
-                            "$id": 34,
-                            "$type": 14,
-                            "$rlength": 0,
-                            "$rcontent": [
-                            ]
-                        }
-                    },
-                    {
-                        "$k": "Stoat_Talking",
-                        "$v": {
-                            "$id": 35,
-                            "$type": 14,
-                            "$rlength": 0,
-                            "$rcontent": [
-                            ]
-                        }
-                    },
-                    {
-                        "$k": "Bullfrog",
+                        "$k": "Wolf#0",
                         "$v": {
                             "$id": 36,
-                            "$type": 14,
+                            "$type": "15|System.Collections.Generic.List`1[[DiskCardGame.CardModificationInfo, Assembly-CSharp]], mscorlib",
+                            "$rlength": 0,
+                            "$rcontent": [
+                            ]
+                        }
+                    },
+                    {
+                        "$k": "Stinkbug_Talking#0",
+                        "$v": {
+                            "$id": 37,
+                            "$type": 15,
+                            "$rlength": 0,
+                            "$rcontent": [
+                            ]
+                        }
+                    },
+                    {
+                        "$k": "Stoat_Talking#0",
+                        "$v": {
+                            "$id": 38,
+                            "$type": 15,
+                            "$rlength": 0,
+                            "$rcontent": [
+                            ]
+                        }
+                    },
+                    {
+                        "$k": "Bullfrog#0",
+                        "$v": {
+                            "$id": 39,
+                            "$type": 15,
                             "$rlength": 0,
                             "$rcontent": [
                             ]
@@ -297,29 +315,29 @@
             }
         },
         "totems": {
-            "$id": 37,
-            "$type": "15|System.Collections.Generic.List`1[[DiskCardGame.TotemDefinition, Assembly-CSharp]], mscorlib",
+            "$id": 40,
+            "$type": "16|System.Collections.Generic.List`1[[DiskCardGame.TotemDefinition, Assembly-CSharp]], mscorlib",
             "$rlength": 0,
             "$rcontent": [
             ]
         },
         "totemTops": {
-            "$id": 38,
-            "$type": "16|System.Collections.Generic.List`1[[DiskCardGame.Tribe, Assembly-CSharp]], mscorlib",
+            "$id": 41,
+            "$type": "17|System.Collections.Generic.List`1[[DiskCardGame.Tribe, Assembly-CSharp]], mscorlib",
             "$rlength": 1,
             "$rcontent": [
                 1
             ]
         },
         "totemBottoms": {
-            "$id": 39,
+            "$id": 42,
             "$type": 7,
             "$rlength": 0,
             "$rcontent": [
             ]
         },
         "consumables": {
-            "$id": 40,
+            "$id": 43,
             "$type": 9,
             "$rlength": 2,
             "$rcontent": [
@@ -331,17 +349,17 @@
         "playerLives": 2,
         "maxPlayerLives": 2,
         "storyEventsCompleted": {
-            "$id": 41,
+            "$id": 44,
             "$type": 2,
             "$rlength": 0,
             "$rcontent": [
             ]
         },
         "eyeState": 0,
-        "runIntroCompleted": false,
+        "runIntroCompleted": true,
         "leshyBossBattle": false,
         "riggedDraws": {
-            "$id": 42,
+            "$id": 45,
             "$type": 9,
             "$rlength": 0,
             "$rcontent": [
@@ -355,8 +373,8 @@
         "currentNodeId": 0,
         "regionTier": 0,
         "regionOrder": {
-            "$id": 43,
-            "$type": "17|System.Int32[], mscorlib",
+            "$id": 46,
+            "$type": "18|System.Int32[], mscorlib",
             "$plength": 3,
             "$pcontent": [
                 0,
@@ -373,18 +391,18 @@
         "deathcardName": null
     },
     "pastRuns": {
-        "$id": 44,
-        "$type": "18|System.Collections.Generic.List`1[[DiskCardGame.RunState, Assembly-CSharp]], mscorlib",
+        "$id": 47,
+        "$type": "19|System.Collections.Generic.List`1[[DiskCardGame.RunState, Assembly-CSharp]], mscorlib",
         "$rlength": 2,
         "$rcontent": [
             {
-                "$id": 45,
+                "$id": 48,
                 "$type": 10,
                 "playerDeck": {
-                    "$id": 46,
+                    "$id": 49,
                     "$type": 11,
                     "cardIds": {
-                        "$id": 47,
+                        "$id": 50,
                         "$type": 9,
                         "$rlength": 5,
                         "$rcontent": [
@@ -396,26 +414,26 @@
                         ]
                     },
                     "boonIds": {
-                        "$id": 48,
-                        "$type": "19|System.Collections.Generic.List`1[[DiskCardGame.BoonData+Type, Assembly-CSharp]], mscorlib",
+                        "$id": 51,
+                        "$type": 12,
                         "$rlength": 0,
                         "$rcontent": [
                         ]
                     },
                     "cardIdModInfos": {
-                        "$id": 49,
-                        "$type": 12,
+                        "$id": 52,
+                        "$type": 13,
                         "comparer": {
-                            "$id": 50,
-                            "$type": 13
+                            "$id": 53,
+                            "$type": 14
                         },
                         "$rlength": 5,
                         "$rcontent": [
                             {
                                 "$k": "Stoat_Talking",
                                 "$v": {
-                                    "$id": 51,
-                                    "$type": 14,
+                                    "$id": 54,
+                                    "$type": 15,
                                     "$rlength": 0,
                                     "$rcontent": [
                                     ]
@@ -424,8 +442,8 @@
                             {
                                 "$k": "Wolf",
                                 "$v": {
-                                    "$id": 52,
-                                    "$type": 14,
+                                    "$id": 55,
+                                    "$type": 15,
                                     "$rlength": 0,
                                     "$rcontent": [
                                     ]
@@ -434,8 +452,8 @@
                             {
                                 "$k": "Wolf#1",
                                 "$v": {
-                                    "$id": 53,
-                                    "$type": 14,
+                                    "$id": 56,
+                                    "$type": 15,
                                     "$rlength": 0,
                                     "$rcontent": [
                                     ]
@@ -444,8 +462,8 @@
                             {
                                 "$k": "Snapper",
                                 "$v": {
-                                    "$id": 54,
-                                    "$type": 14,
+                                    "$id": 57,
+                                    "$type": 15,
                                     "$rlength": 0,
                                     "$rcontent": [
                                     ]
@@ -454,19 +472,19 @@
                             {
                                 "$k": "WolfCub",
                                 "$v": {
-                                    "$id": 55,
-                                    "$type": 14,
+                                    "$id": 58,
+                                    "$type": 15,
                                     "$rlength": 1,
                                     "$rcontent": [
                                         {
-                                            "$id": 56,
+                                            "$id": 59,
                                             "$type": "20|DiskCardGame.CardModificationInfo, Assembly-CSharp",
                                             "singletonId": null,
                                             "nameReplacement": null,
                                             "attackAdjustment": 0,
                                             "healthAdjustment": 0,
                                             "abilities": {
-                                                "$id": 57,
+                                                "$id": 60,
                                                 "$type": 7,
                                                 "$rlength": 1,
                                                 "$rcontent": [
@@ -474,7 +492,7 @@
                                                 ]
                                             },
                                             "negateAbilities": {
-                                                "$id": 58,
+                                                "$id": 61,
                                                 "$type": 7,
                                                 "$rlength": 0,
                                                 "$rcontent": [
@@ -485,7 +503,7 @@
                                             "energyCostAdjustment": 0,
                                             "nullifyGemsCost": false,
                                             "addGemCost": {
-                                                "$id": 59,
+                                                "$id": 62,
                                                 "$type": "21|System.Collections.Generic.List`1[[DiskCardGame.GemType, Assembly-CSharp]], mscorlib",
                                                 "$rlength": 0,
                                                 "$rcontent": [
@@ -493,7 +511,7 @@
                                             },
                                             "gemify": false,
                                             "specialAbilities": {
-                                                "$id": 60,
+                                                "$id": 63,
                                                 "$type": "22|System.Collections.Generic.List`1[[DiskCardGame.SpecialTriggeredAbility, Assembly-CSharp]], mscorlib",
                                                 "$rlength": 0,
                                                 "$rcontent": [
@@ -513,7 +531,7 @@
                                             "bountyHunterInfo": null,
                                             "buildACardPortraitInfo": null,
                                             "decalIds": {
-                                                "$id": 61,
+                                                "$id": 64,
                                                 "$type": 9,
                                                 "$rlength": 0,
                                                 "$rcontent": [
@@ -527,28 +545,28 @@
                     }
                 },
                 "totems": {
-                    "$id": 62,
-                    "$type": 15,
-                    "$rlength": 0,
-                    "$rcontent": [
-                    ]
-                },
-                "totemTops": {
-                    "$id": 63,
+                    "$id": 65,
                     "$type": 16,
                     "$rlength": 0,
                     "$rcontent": [
                     ]
                 },
+                "totemTops": {
+                    "$id": 66,
+                    "$type": 17,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
                 "totemBottoms": {
-                    "$id": 64,
+                    "$id": 67,
                     "$type": 7,
                     "$rlength": 0,
                     "$rcontent": [
                     ]
                 },
                 "consumables": {
-                    "$id": 65,
+                    "$id": 68,
                     "$type": 9,
                     "$rlength": 3,
                     "$rcontent": [
@@ -561,7 +579,7 @@
                 "playerLives": 0,
                 "maxPlayerLives": 2,
                 "storyEventsCompleted": {
-                    "$id": 66,
+                    "$id": 69,
                     "$type": 2,
                     "$rlength": 4,
                     "$rcontent": [
@@ -575,7 +593,7 @@
                 "runIntroCompleted": true,
                 "leshyBossBattle": false,
                 "riggedDraws": {
-                    "$id": 67,
+                    "$id": 70,
                     "$type": 9,
                     "$rlength": 0,
                     "$rcontent": [
@@ -589,8 +607,8 @@
                 "currentNodeId": 7,
                 "regionTier": 0,
                 "regionOrder": {
-                    "$id": 68,
-                    "$type": 17,
+                    "$id": 71,
+                    "$type": 18,
                     "$plength": 3,
                     "$pcontent": [
                         0,
@@ -602,7 +620,7 @@
                 "playerAvatarArms": 7,
                 "playerAvatarBody": 6,
                 "causeOfDeath": {
-                    "$id": 69,
+                    "$id": 72,
                     "$type": "23|DiskCardGame.RunState+CauseOfDeath, Assembly-CSharp",
                     "opponentType": 2
                 },
@@ -611,13 +629,13 @@
                 "deathcardName": "Ahmad 1"
             },
             {
-                "$id": 70,
+                "$id": 73,
                 "$type": 10,
                 "playerDeck": {
-                    "$id": 71,
+                    "$id": 74,
                     "$type": 11,
                     "cardIds": {
-                        "$id": 72,
+                        "$id": 75,
                         "$type": 9,
                         "$rlength": 6,
                         "$rcontent": [
@@ -630,26 +648,26 @@
                         ]
                     },
                     "boonIds": {
-                        "$id": 73,
-                        "$type": 19,
+                        "$id": 76,
+                        "$type": 12,
                         "$rlength": 0,
                         "$rcontent": [
                         ]
                     },
                     "cardIdModInfos": {
-                        "$id": 74,
-                        "$type": 12,
+                        "$id": 77,
+                        "$type": 13,
                         "comparer": {
-                            "$id": 75,
-                            "$type": 13
+                            "$id": 78,
+                            "$type": 14
                         },
                         "$rlength": 6,
                         "$rcontent": [
                             {
                                 "$k": "Wolf#0",
                                 "$v": {
-                                    "$id": 76,
-                                    "$type": 14,
+                                    "$id": 79,
+                                    "$type": 15,
                                     "$rlength": 0,
                                     "$rcontent": [
                                     ]
@@ -658,8 +676,8 @@
                             {
                                 "$k": "Opossum#0",
                                 "$v": {
-                                    "$id": 77,
-                                    "$type": 14,
+                                    "$id": 80,
+                                    "$type": 15,
                                     "$rlength": 0,
                                     "$rcontent": [
                                     ]
@@ -668,8 +686,8 @@
                             {
                                 "$k": "Stoat_Talking#0",
                                 "$v": {
-                                    "$id": 78,
-                                    "$type": 14,
+                                    "$id": 81,
+                                    "$type": 15,
                                     "$rlength": 0,
                                     "$rcontent": [
                                     ]
@@ -678,8 +696,8 @@
                             {
                                 "$k": "Bullfrog#0",
                                 "$v": {
-                                    "$id": 79,
-                                    "$type": 14,
+                                    "$id": 82,
+                                    "$type": 15,
                                     "$rlength": 0,
                                     "$rcontent": [
                                     ]
@@ -688,8 +706,8 @@
                             {
                                 "$k": "Stinkbug_Talking#0",
                                 "$v": {
-                                    "$id": 80,
-                                    "$type": 14,
+                                    "$id": 83,
+                                    "$type": 15,
                                     "$rlength": 0,
                                     "$rcontent": [
                                     ]
@@ -698,8 +716,8 @@
                             {
                                 "$k": "Cockroach#0",
                                 "$v": {
-                                    "$id": 81,
-                                    "$type": 14,
+                                    "$id": 84,
+                                    "$type": 15,
                                     "$rlength": 0,
                                     "$rcontent": [
                                     ]
@@ -709,29 +727,29 @@
                     }
                 },
                 "totems": {
-                    "$id": 82,
-                    "$type": 15,
+                    "$id": 85,
+                    "$type": 16,
                     "$rlength": 0,
                     "$rcontent": [
                     ]
                 },
                 "totemTops": {
-                    "$id": 83,
-                    "$type": 16,
+                    "$id": 86,
+                    "$type": 17,
                     "$rlength": 1,
                     "$rcontent": [
                         1
                     ]
                 },
                 "totemBottoms": {
-                    "$id": 84,
+                    "$id": 87,
                     "$type": 7,
                     "$rlength": 0,
                     "$rcontent": [
                     ]
                 },
                 "consumables": {
-                    "$id": 85,
+                    "$id": 88,
                     "$type": 9,
                     "$rlength": 2,
                     "$rcontent": [
@@ -743,7 +761,7 @@
                 "playerLives": 0,
                 "maxPlayerLives": 2,
                 "storyEventsCompleted": {
-                    "$id": 86,
+                    "$id": 89,
                     "$type": 2,
                     "$rlength": 15,
                     "$rcontent": [
@@ -768,7 +786,7 @@
                 "runIntroCompleted": true,
                 "leshyBossBattle": false,
                 "riggedDraws": {
-                    "$id": 87,
+                    "$id": 90,
                     "$type": 9,
                     "$rlength": 0,
                     "$rcontent": [
@@ -782,8 +800,8 @@
                 "currentNodeId": 5863,
                 "regionTier": 0,
                 "regionOrder": {
-                    "$id": 88,
-                    "$type": 17,
+                    "$id": 91,
+                    "$type": 18,
                     "$plength": 3,
                     "$pcontent": [
                         0,
@@ -795,7 +813,7 @@
                 "playerAvatarArms": 5,
                 "playerAvatarBody": 7,
                 "causeOfDeath": {
-                    "$id": 89,
+                    "$id": 92,
                     "$type": 23,
                     "opponentType": 0
                 },
@@ -806,19 +824,19 @@
         ]
     },
     "deathCardMods": {
-        "$id": 90,
-        "$type": 14,
+        "$id": 93,
+        "$type": 15,
         "$rlength": 6,
         "$rcontent": [
             {
-                "$id": 91,
+                "$id": 94,
                 "$type": 20,
                 "singletonId": null,
                 "nameReplacement": "Reginald",
                 "attackAdjustment": 1,
                 "healthAdjustment": 3,
                 "abilities": {
-                    "$id": 92,
+                    "$id": 95,
                     "$type": 7,
                     "$rlength": 1,
                     "$rcontent": [
@@ -826,7 +844,7 @@
                     ]
                 },
                 "negateAbilities": {
-                    "$id": 93,
+                    "$id": 96,
                     "$type": 7,
                     "$rlength": 0,
                     "$rcontent": [
@@ -837,7 +855,7 @@
                 "energyCostAdjustment": 0,
                 "nullifyGemsCost": false,
                 "addGemCost": {
-                    "$id": 94,
+                    "$id": 97,
                     "$type": 21,
                     "$rlength": 0,
                     "$rcontent": [
@@ -845,7 +863,7 @@
                 },
                 "gemify": false,
                 "specialAbilities": {
-                    "$id": 95,
+                    "$id": 98,
                     "$type": 22,
                     "$rlength": 0,
                     "$rcontent": [
@@ -862,7 +880,7 @@
                 "fromEvolve": false,
                 "transformerBeastCardId": null,
                 "deathCardInfo": {
-                    "$id": 96,
+                    "$id": 99,
                     "$type": "24|DiskCardGame.DeathCardInfo, Assembly-CSharp",
                     "headType": 0,
                     "mouthIndex": 5,
@@ -874,14 +892,14 @@
                 "decalIds": null
             },
             {
-                "$id": 97,
+                "$id": 100,
                 "$type": 20,
                 "singletonId": null,
                 "nameReplacement": "Kaycee",
                 "attackAdjustment": 1,
                 "healthAdjustment": 2,
                 "abilities": {
-                    "$id": 98,
+                    "$id": 101,
                     "$type": 7,
                     "$rlength": 2,
                     "$rcontent": [
@@ -890,7 +908,7 @@
                     ]
                 },
                 "negateAbilities": {
-                    "$id": 99,
+                    "$id": 102,
                     "$type": 7,
                     "$rlength": 0,
                     "$rcontent": [
@@ -901,7 +919,7 @@
                 "energyCostAdjustment": 0,
                 "nullifyGemsCost": false,
                 "addGemCost": {
-                    "$id": 100,
+                    "$id": 103,
                     "$type": 21,
                     "$rlength": 0,
                     "$rcontent": [
@@ -909,7 +927,7 @@
                 },
                 "gemify": false,
                 "specialAbilities": {
-                    "$id": 101,
+                    "$id": 104,
                     "$type": 22,
                     "$rlength": 0,
                     "$rcontent": [
@@ -926,7 +944,7 @@
                 "fromEvolve": false,
                 "transformerBeastCardId": null,
                 "deathCardInfo": {
-                    "$id": 102,
+                    "$id": 105,
                     "$type": 24,
                     "headType": 3,
                     "mouthIndex": 1,
@@ -938,14 +956,14 @@
                 "decalIds": null
             },
             {
-                "$id": 103,
+                "$id": 106,
                 "$type": 20,
                 "singletonId": null,
                 "nameReplacement": "Louis",
                 "attackAdjustment": 1,
                 "healthAdjustment": 1,
                 "abilities": {
-                    "$id": 104,
+                    "$id": 107,
                     "$type": 7,
                     "$rlength": 2,
                     "$rcontent": [
@@ -954,7 +972,7 @@
                     ]
                 },
                 "negateAbilities": {
-                    "$id": 105,
+                    "$id": 108,
                     "$type": 7,
                     "$rlength": 0,
                     "$rcontent": [
@@ -965,7 +983,7 @@
                 "energyCostAdjustment": 0,
                 "nullifyGemsCost": false,
                 "addGemCost": {
-                    "$id": 106,
+                    "$id": 109,
                     "$type": 21,
                     "$rlength": 0,
                     "$rcontent": [
@@ -973,7 +991,7 @@
                 },
                 "gemify": false,
                 "specialAbilities": {
-                    "$id": 107,
+                    "$id": 110,
                     "$type": 22,
                     "$rlength": 0,
                     "$rcontent": [
@@ -990,7 +1008,7 @@
                 "fromEvolve": false,
                 "transformerBeastCardId": null,
                 "deathCardInfo": {
-                    "$id": 108,
+                    "$id": 111,
                     "$type": 24,
                     "headType": 2,
                     "mouthIndex": 2,
@@ -1002,14 +1020,14 @@
                 "decalIds": null
             },
             {
-                "$id": 109,
+                "$id": 112,
                 "$type": 20,
                 "singletonId": null,
                 "nameReplacement": "Kaminski",
                 "attackAdjustment": 0,
                 "healthAdjustment": 1,
                 "abilities": {
-                    "$id": 110,
+                    "$id": 113,
                     "$type": 7,
                     "$rlength": 2,
                     "$rcontent": [
@@ -1018,7 +1036,7 @@
                     ]
                 },
                 "negateAbilities": {
-                    "$id": 111,
+                    "$id": 114,
                     "$type": 7,
                     "$rlength": 0,
                     "$rcontent": [
@@ -1029,7 +1047,7 @@
                 "energyCostAdjustment": 0,
                 "nullifyGemsCost": false,
                 "addGemCost": {
-                    "$id": 112,
+                    "$id": 115,
                     "$type": 21,
                     "$rlength": 0,
                     "$rcontent": [
@@ -1037,7 +1055,7 @@
                 },
                 "gemify": false,
                 "specialAbilities": {
-                    "$id": 113,
+                    "$id": 116,
                     "$type": 22,
                     "$rlength": 0,
                     "$rcontent": [
@@ -1054,7 +1072,7 @@
                 "fromEvolve": false,
                 "transformerBeastCardId": null,
                 "deathCardInfo": {
-                    "$id": 114,
+                    "$id": 117,
                     "$type": 24,
                     "headType": 1,
                     "mouthIndex": 3,
@@ -1066,14 +1084,14 @@
                 "decalIds": null
             },
             {
-                "$id": 115,
+                "$id": 118,
                 "$type": 20,
                 "singletonId": null,
                 "nameReplacement": "Ahmad 1",
                 "attackAdjustment": 3,
                 "healthAdjustment": 2,
                 "abilities": {
-                    "$id": 116,
+                    "$id": 119,
                     "$type": 7,
                     "$rlength": 2,
                     "$rcontent": [
@@ -1082,7 +1100,7 @@
                     ]
                 },
                 "negateAbilities": {
-                    "$id": 117,
+                    "$id": 120,
                     "$type": 7,
                     "$rlength": 0,
                     "$rcontent": [
@@ -1093,7 +1111,7 @@
                 "energyCostAdjustment": 0,
                 "nullifyGemsCost": false,
                 "addGemCost": {
-                    "$id": 118,
+                    "$id": 121,
                     "$type": 21,
                     "$rlength": 0,
                     "$rcontent": [
@@ -1101,7 +1119,7 @@
                 },
                 "gemify": false,
                 "specialAbilities": {
-                    "$id": 119,
+                    "$id": 122,
                     "$type": 22,
                     "$rlength": 0,
                     "$rcontent": [
@@ -1118,7 +1136,7 @@
                 "fromEvolve": false,
                 "transformerBeastCardId": null,
                 "deathCardInfo": {
-                    "$id": 120,
+                    "$id": 123,
                     "$type": 24,
                     "headType": 0,
                     "mouthIndex": 0,
@@ -1128,7 +1146,7 @@
                 "bountyHunterInfo": null,
                 "buildACardPortraitInfo": null,
                 "decalIds": {
-                    "$id": 121,
+                    "$id": 124,
                     "$type": 9,
                     "$rlength": 0,
                     "$rcontent": [
@@ -1136,14 +1154,14 @@
                 }
             },
             {
-                "$id": 122,
+                "$id": 125,
                 "$type": 20,
                 "singletonId": null,
                 "nameReplacement": "Ahmad 2",
-                "attackAdjustment": 3,
-                "healthAdjustment": 2,
+                "attackAdjustment": 1,
+                "healthAdjustment": 1,
                 "abilities": {
-                    "$id": 123,
+                    "$id": 126,
                     "$type": 7,
                     "$rlength": 1,
                     "$rcontent": [
@@ -1151,18 +1169,18 @@
                     ]
                 },
                 "negateAbilities": {
-                    "$id": 124,
+                    "$id": 127,
                     "$type": 7,
                     "$rlength": 0,
                     "$rcontent": [
                     ]
                 },
-                "bloodCostAdjustment": 0,
-                "bonesCostAdjustment": 4,
+                "bloodCostAdjustment": 2,
+                "bonesCostAdjustment": 0,
                 "energyCostAdjustment": 0,
                 "nullifyGemsCost": false,
                 "addGemCost": {
-                    "$id": 125,
+                    "$id": 128,
                     "$type": 21,
                     "$rlength": 0,
                     "$rcontent": [
@@ -1170,7 +1188,7 @@
                 },
                 "gemify": false,
                 "specialAbilities": {
-                    "$id": 126,
+                    "$id": 129,
                     "$type": 22,
                     "$rlength": 0,
                     "$rcontent": [
@@ -1187,7 +1205,7 @@
                 "fromEvolve": false,
                 "transformerBeastCardId": null,
                 "deathCardInfo": {
-                    "$id": 127,
+                    "$id": 130,
                     "$type": 24,
                     "headType": 3,
                     "mouthIndex": 1,
@@ -1197,7 +1215,7 @@
                 "bountyHunterInfo": null,
                 "buildACardPortraitInfo": null,
                 "decalIds": {
-                    "$id": 128,
+                    "$id": 131,
                     "$type": 9,
                     "$rlength": 0,
                     "$rcontent": [
@@ -1208,11 +1226,11 @@
     },
     "wallCandlesProgress": 0,
     "oilPaintingState": {
-        "$id": 129,
+        "$id": 132,
         "$type": "25|DiskCardGame.OilPaintingPuzzle+SaveState, Assembly-CSharp",
         "isAscension": false,
         "puzzleSolution": {
-            "$id": 130,
+            "$id": 133,
             "$type": 9,
             "$rlength": 4,
             "$rcontent": [
@@ -1227,16 +1245,16 @@
         "rewardTaken": false
     },
     "sliderTrackStates": {
-        "$id": 131,
+        "$id": 134,
         "$type": "26|System.Collections.Generic.List`1[[DiskCardGame.SliderPuzzleTrack+SaveState, Assembly-CSharp]], mscorlib",
         "$rlength": 16,
         "$rcontent": [
             {
-                "$id": 132,
+                "$id": 135,
                 "$type": "27|DiskCardGame.SliderPuzzleTrack+SaveState, Assembly-CSharp",
                 "id": "Part1_Cabin_12",
                 "sliderPositions": {
-                    "$id": 133,
+                    "$id": 136,
                     "$type": "28|System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib",
                     "$rlength": 1,
                     "$rcontent": [
@@ -1245,11 +1263,11 @@
                 }
             },
             {
-                "$id": 134,
+                "$id": 137,
                 "$type": 27,
                 "id": "Part1_Cabin_31",
                 "sliderPositions": {
-                    "$id": 135,
+                    "$id": 138,
                     "$type": 28,
                     "$rlength": 2,
                     "$rcontent": [
@@ -1259,11 +1277,11 @@
                 }
             },
             {
-                "$id": 136,
+                "$id": 139,
                 "$type": 27,
                 "id": "Part1_Cabin_43",
                 "sliderPositions": {
-                    "$id": 137,
+                    "$id": 140,
                     "$type": 28,
                     "$rlength": 2,
                     "$rcontent": [
@@ -1273,11 +1291,11 @@
                 }
             },
             {
-                "$id": 138,
+                "$id": 141,
                 "$type": 27,
                 "id": "Part1_Cabin_233",
                 "sliderPositions": {
-                    "$id": 139,
+                    "$id": 142,
                     "$type": 28,
                     "$rlength": 2,
                     "$rcontent": [
@@ -1287,11 +1305,11 @@
                 }
             },
             {
-                "$id": 140,
+                "$id": 143,
                 "$type": 27,
                 "id": "Part1_Cabin_14",
                 "sliderPositions": {
-                    "$id": 141,
+                    "$id": 144,
                     "$type": 28,
                     "$rlength": 1,
                     "$rcontent": [
@@ -1300,11 +1318,11 @@
                 }
             },
             {
-                "$id": 142,
+                "$id": 145,
                 "$type": 27,
                 "id": "Part1_Cabin_11",
                 "sliderPositions": {
-                    "$id": 143,
+                    "$id": 146,
                     "$type": 28,
                     "$rlength": 1,
                     "$rcontent": [
@@ -1313,11 +1331,11 @@
                 }
             },
             {
-                "$id": 144,
+                "$id": 147,
                 "$type": 27,
                 "id": "Part1_Cabin_34",
                 "sliderPositions": {
-                    "$id": 145,
+                    "$id": 148,
                     "$type": 28,
                     "$rlength": 1,
                     "$rcontent": [
@@ -1326,11 +1344,11 @@
                 }
             },
             {
-                "$id": 146,
+                "$id": 149,
                 "$type": 27,
                 "id": "Part1_Cabin_32",
                 "sliderPositions": {
-                    "$id": 147,
+                    "$id": 150,
                     "$type": 28,
                     "$rlength": 3,
                     "$rcontent": [
@@ -1341,11 +1359,11 @@
                 }
             },
             {
-                "$id": 148,
+                "$id": 151,
                 "$type": 27,
                 "id": "Part1_Cabin_21",
                 "sliderPositions": {
-                    "$id": 149,
+                    "$id": 152,
                     "$type": 28,
                     "$rlength": 3,
                     "$rcontent": [
@@ -1356,11 +1374,11 @@
                 }
             },
             {
-                "$id": 150,
+                "$id": 153,
                 "$type": 27,
                 "id": "Part1_Cabin_41",
                 "sliderPositions": {
-                    "$id": 151,
+                    "$id": 154,
                     "$type": 28,
                     "$rlength": 1,
                     "$rcontent": [
@@ -1369,11 +1387,11 @@
                 }
             },
             {
-                "$id": 152,
+                "$id": 155,
                 "$type": 27,
                 "id": "Part1_Cabin_33",
                 "sliderPositions": {
-                    "$id": 153,
+                    "$id": 156,
                     "$type": 28,
                     "$rlength": 3,
                     "$rcontent": [
@@ -1384,11 +1402,11 @@
                 }
             },
             {
-                "$id": 154,
+                "$id": 157,
                 "$type": 27,
                 "id": "Part1_Cabin_44",
                 "sliderPositions": {
-                    "$id": 155,
+                    "$id": 158,
                     "$type": 28,
                     "$rlength": 3,
                     "$rcontent": [
@@ -1399,11 +1417,11 @@
                 }
             },
             {
-                "$id": 156,
+                "$id": 159,
                 "$type": 27,
                 "id": "Part1_Cabin_244",
                 "sliderPositions": {
-                    "$id": 157,
+                    "$id": 160,
                     "$type": 28,
                     "$rlength": 2,
                     "$rcontent": [
@@ -1413,11 +1431,11 @@
                 }
             },
             {
-                "$id": 158,
+                "$id": 161,
                 "$type": 27,
                 "id": "Part1_Cabin_13",
                 "sliderPositions": {
-                    "$id": 159,
+                    "$id": 162,
                     "$type": 28,
                     "$rlength": 1,
                     "$rcontent": [
@@ -1426,11 +1444,11 @@
                 }
             },
             {
-                "$id": 160,
+                "$id": 163,
                 "$type": 27,
                 "id": "Part1_Cabin_42",
                 "sliderPositions": {
-                    "$id": 161,
+                    "$id": 164,
                     "$type": 28,
                     "$rlength": 2,
                     "$rcontent": [
@@ -1440,11 +1458,11 @@
                 }
             },
             {
-                "$id": 162,
+                "$id": 165,
                 "$type": 27,
                 "id": "Part1_Cabin_22",
                 "sliderPositions": {
-                    "$id": 163,
+                    "$id": 166,
                     "$type": 28,
                     "$rlength": 2,
                     "$rcontent": [
@@ -1456,13 +1474,13 @@
         ]
     },
     "gbcData": {
-        "$id": 164,
+        "$id": 167,
         "$type": "29|GBC.SaveData, Assembly-CSharp",
         "deck": {
-            "$id": 165,
+            "$id": 168,
             "$type": 11,
             "cardIds": {
-                "$id": 166,
+                "$id": 169,
                 "$type": 9,
                 "$rlength": 0,
                 "$rcontent": [
@@ -1470,11 +1488,11 @@
             },
             "boonIds": null,
             "cardIdModInfos": {
-                "$id": 167,
-                "$type": 12,
+                "$id": 170,
+                "$type": 13,
                 "comparer": {
-                    "$id": 168,
-                    "$type": 13
+                    "$id": 171,
+                    "$type": 14
                 },
                 "$rlength": 0,
                 "$rcontent": [
@@ -1482,10 +1500,10 @@
             }
         },
         "collection": {
-            "$id": 169,
+            "$id": 172,
             "$type": "30|DiskCardGame.CardCollectionInfo, Assembly-CSharp",
             "cardIds": {
-                "$id": 170,
+                "$id": 173,
                 "$type": 9,
                 "$rlength": 0,
                 "$rcontent": [
@@ -1493,7 +1511,7 @@
             }
         },
         "cardsViewedInCollection": {
-            "$id": 171,
+            "$id": 174,
             "$type": 9,
             "$rlength": 0,
             "$rcontent": [
@@ -1513,7 +1531,7 @@
         },
         "overworldIndoorLookDirection": 0,
         "objectStates": {
-            "$id": 172,
+            "$id": 175,
             "$type": "32|System.Collections.Generic.List`1[[GBC.SaveData+ObjectStateData, Assembly-CSharp]], mscorlib",
             "$rlength": 0,
             "$rcontent": [
@@ -1523,10 +1541,10 @@
         "playerAvatarArms": 7,
         "playerAvatarBody": 6,
         "undeadTemple": {
-            "$id": 173,
+            "$id": 176,
             "$type": "33|GBC.UndeadTempleSaveData, Assembly-CSharp",
             "shopState": {
-                "$id": 174,
+                "$id": 177,
                 "$type": "34|GBC.TempleSaveData+ShopInventoryState, Assembly-CSharp",
                 "card1Progress": 0,
                 "card2Progress": 0,
@@ -1540,12 +1558,12 @@
             },
             "roomId": null,
             "epitaphPieces": {
-                "$id": 175,
+                "$id": 178,
                 "$type": "35|System.Collections.Generic.List`1[[GBC.UndeadTempleSaveData+EpitaphPieceState, Assembly-CSharp]], mscorlib",
                 "$rlength": 9,
                 "$rcontent": [
                     {
-                        "$id": 176,
+                        "$id": 179,
                         "$type": "36|GBC.UndeadTempleSaveData+EpitaphPieceState, Assembly-CSharp",
                         "index": 0,
                         "found": false,
@@ -1553,7 +1571,7 @@
                         "tombstoneIndex": 0
                     },
                     {
-                        "$id": 177,
+                        "$id": 180,
                         "$type": 36,
                         "index": 1,
                         "found": false,
@@ -1561,7 +1579,7 @@
                         "tombstoneIndex": 0
                     },
                     {
-                        "$id": 178,
+                        "$id": 181,
                         "$type": 36,
                         "index": 2,
                         "found": false,
@@ -1569,7 +1587,7 @@
                         "tombstoneIndex": 0
                     },
                     {
-                        "$id": 179,
+                        "$id": 182,
                         "$type": 36,
                         "index": 3,
                         "found": false,
@@ -1577,7 +1595,7 @@
                         "tombstoneIndex": 0
                     },
                     {
-                        "$id": 180,
+                        "$id": 183,
                         "$type": 36,
                         "index": 4,
                         "found": false,
@@ -1585,7 +1603,7 @@
                         "tombstoneIndex": 0
                     },
                     {
-                        "$id": 181,
+                        "$id": 184,
                         "$type": 36,
                         "index": 5,
                         "found": false,
@@ -1593,7 +1611,7 @@
                         "tombstoneIndex": 0
                     },
                     {
-                        "$id": 182,
+                        "$id": 185,
                         "$type": 36,
                         "index": 6,
                         "found": false,
@@ -1601,7 +1619,7 @@
                         "tombstoneIndex": 0
                     },
                     {
-                        "$id": 183,
+                        "$id": 186,
                         "$type": 36,
                         "index": 7,
                         "found": false,
@@ -1609,7 +1627,7 @@
                         "tombstoneIndex": 0
                     },
                     {
-                        "$id": 184,
+                        "$id": 187,
                         "$type": 36,
                         "index": 8,
                         "found": false,
@@ -1620,10 +1638,10 @@
             }
         },
         "natureTemple": {
-            "$id": 185,
+            "$id": 188,
             "$type": "37|GBC.NatureTempleSaveData, Assembly-CSharp",
             "shopState": {
-                "$id": 186,
+                "$id": 189,
                 "$type": 34,
                 "card1Progress": 0,
                 "card2Progress": 0,
@@ -1646,12 +1664,12 @@
             },
             "trapperHeadTurned": false,
             "safeState": {
-                "$id": 187,
+                "$id": 190,
                 "$type": "38|GBC.TempleSaveData+SlidersSaveState, Assembly-CSharp",
                 "index": 0,
                 "sliderPositions": {
-                    "$id": 188,
-                    "$type": 17,
+                    "$id": 191,
+                    "$type": 18,
                     "$plength": 3,
                     "$pcontent": [
                         0,
@@ -1662,10 +1680,10 @@
             }
         },
         "wizardTemple": {
-            "$id": 189,
+            "$id": 192,
             "$type": "39|GBC.WizardTempleSaveData, Assembly-CSharp",
             "shopState": {
-                "$id": 190,
+                "$id": 193,
                 "$type": 34,
                 "card1Progress": 0,
                 "card2Progress": 0,
@@ -1679,17 +1697,17 @@
             },
             "roomId": null,
             "pedestals": {
-                "$id": 191,
+                "$id": 194,
                 "$type": "40|System.Collections.Generic.List`1[[GBC.TempleSaveData+SlidersSaveState, Assembly-CSharp]], mscorlib",
                 "$rlength": 3,
                 "$rcontent": [
                     {
-                        "$id": 192,
+                        "$id": 195,
                         "$type": 38,
                         "index": 0,
                         "sliderPositions": {
-                            "$id": 193,
-                            "$type": 17,
+                            "$id": 196,
+                            "$type": 18,
                             "$plength": 3,
                             "$pcontent": [
                                 3,
@@ -1699,12 +1717,12 @@
                         }
                     },
                     {
-                        "$id": 194,
+                        "$id": 197,
                         "$type": 38,
                         "index": 0,
                         "sliderPositions": {
-                            "$id": 195,
-                            "$type": 17,
+                            "$id": 198,
+                            "$type": 18,
                             "$plength": 3,
                             "$pcontent": [
                                 3,
@@ -1714,12 +1732,12 @@
                         }
                     },
                     {
-                        "$id": 196,
+                        "$id": 199,
                         "$type": 38,
                         "index": 0,
                         "sliderPositions": {
-                            "$id": 197,
-                            "$type": 17,
+                            "$id": 200,
+                            "$type": 18,
                             "$plength": 3,
                             "$pcontent": [
                                 3,
@@ -1732,10 +1750,10 @@
             }
         },
         "techTemple": {
-            "$id": 198,
+            "$id": 201,
             "$type": "41|GBC.TechTempleSaveData, Assembly-CSharp",
             "shopState": {
-                "$id": 199,
+                "$id": 202,
                 "$type": 34,
                 "card1Progress": 0,
                 "card2Progress": 0,
@@ -1751,13 +1769,13 @@
         }
     },
     "part3Data": {
-        "$id": 200,
+        "$id": 203,
         "$type": "42|DiskCardGame.Part3SaveData, Assembly-CSharp",
         "deck": {
-            "$id": 201,
+            "$id": 204,
             "$type": 11,
             "cardIds": {
-                "$id": 202,
+                "$id": 205,
                 "$type": 9,
                 "$rlength": 4,
                 "$rcontent": [
@@ -1769,19 +1787,19 @@
             },
             "boonIds": null,
             "cardIdModInfos": {
-                "$id": 203,
-                "$type": 12,
+                "$id": 206,
+                "$type": 13,
                 "comparer": {
-                    "$id": 204,
-                    "$type": 13
+                    "$id": 207,
+                    "$type": 14
                 },
                 "$rlength": 4,
                 "$rcontent": [
                     {
                         "$k": "BatteryBot#0",
                         "$v": {
-                            "$id": 205,
-                            "$type": 14,
+                            "$id": 208,
+                            "$type": 15,
                             "$rlength": 0,
                             "$rcontent": [
                             ]
@@ -1790,8 +1808,8 @@
                     {
                         "$k": "Shieldbot#0",
                         "$v": {
-                            "$id": 206,
-                            "$type": 14,
+                            "$id": 209,
+                            "$type": 15,
                             "$rlength": 0,
                             "$rcontent": [
                             ]
@@ -1800,8 +1818,8 @@
                     {
                         "$k": "Sniper#0",
                         "$v": {
-                            "$id": 207,
-                            "$type": 14,
+                            "$id": 210,
+                            "$type": 15,
                             "$rlength": 0,
                             "$rcontent": [
                             ]
@@ -1810,8 +1828,8 @@
                     {
                         "$k": "CloserBot#0",
                         "$v": {
-                            "$id": 208,
-                            "$type": 14,
+                            "$id": 211,
+                            "$type": 15,
                             "$rlength": 0,
                             "$rcontent": [
                             ]
@@ -1821,7 +1839,7 @@
             }
         },
         "riggedDraws": {
-            "$id": 209,
+            "$id": 212,
             "$type": 9,
             "$rlength": 0,
             "$rcontent": [
@@ -1830,8 +1848,8 @@
         "currency": 0,
         "shopNodeCostModifier": 0,
         "deckGemsDistribution": {
-            "$id": 210,
-            "$type": 17,
+            "$id": 213,
+            "$type": 18,
             "$plength": 3,
             "$pcontent": [
                 3,
@@ -1840,7 +1858,7 @@
             ]
         },
         "sideDeckAbilities": {
-            "$id": 211,
+            "$id": 214,
             "$type": 7,
             "$rlength": 0,
             "$rcontent": [
@@ -1849,35 +1867,35 @@
         "playerLives": 1,
         "playerMaxLives": 1,
         "items": {
-            "$id": 212,
+            "$id": 215,
             "$type": 9,
             "$rlength": 0,
             "$rcontent": [
             ]
         },
         "unlockedItems": {
-            "$id": 213,
+            "$id": 216,
             "$type": "43|System.Collections.Generic.List`1[[DiskCardGame.Part3SaveData+ItemUnlock, Assembly-CSharp]], mscorlib",
             "$rlength": 0,
             "$rcontent": [
             ]
         },
         "areaData": {
-            "$id": 214,
+            "$id": 217,
             "$type": "44|System.Collections.Generic.List`1[[DiskCardGame.Part3SaveData+MapAreaStateData, Assembly-CSharp]], mscorlib",
             "$rlength": 0,
             "$rcontent": [
             ]
         },
         "playerPos": {
-            "$id": 215,
+            "$id": 218,
             "$type": "45|DiskCardGame.Part3SaveData+WorldPosition, Assembly-CSharp",
             "worldId": "StartingArea",
             "gridX": 2,
             "gridY": 0
         },
         "checkpointPos": {
-            "$id": 216,
+            "$id": 219,
             "$type": 45,
             "worldId": "StartingArea",
             "gridX": 2,
@@ -1888,14 +1906,14 @@
         "bounty": 0,
         "battlesSinceBountyHunter": 0,
         "bountyHunterMods": {
-            "$id": 217,
-            "$type": 14,
+            "$id": 220,
+            "$type": 15,
             "$rlength": 0,
             "$rcontent": [
             ]
         },
         "reachedCheckpoints": {
-            "$id": 218,
+            "$id": 221,
             "$type": 9,
             "$rlength": 1,
             "$rcontent": [
@@ -1905,7 +1923,7 @@
         "nodesActivated": 0,
         "pelts": 0,
         "collectedTarots": {
-            "$id": 219,
+            "$id": 222,
             "$type": "46|System.Collections.Generic.List`1[[DiskCardGame.TraderTarotType, Assembly-CSharp]], mscorlib",
             "$rlength": 0,
             "$rcontent": [
@@ -1920,7 +1938,7 @@
         "wellDredgedCoin": false,
         "undeadTempleSignedScroll": false,
         "techAreaSatellitesOn": {
-            "$id": 220,
+            "$id": 223,
             "$type": "47|System.Boolean[], mscorlib",
             "$plength": 4,
             "$pcontent": [
@@ -1933,22 +1951,22 @@
         "techElevatorOn": false
     },
     "grimoraData": {
-        "$id": 221,
+        "$id": 224,
         "$type": "48|DiskCardGame.GrimoraSaveData, Assembly-CSharp",
         "gridX": 1,
         "gridY": 6,
         "removedPieces": {
-            "$id": 222,
+            "$id": 225,
             "$type": 28,
             "$rlength": 0,
             "$rcontent": [
             ]
         },
         "deck": {
-            "$id": 223,
+            "$id": 226,
             "$type": 11,
             "cardIds": {
-                "$id": 224,
+                "$id": 227,
                 "$type": 9,
                 "$rlength": 5,
                 "$rcontent": [
@@ -1961,19 +1979,19 @@
             },
             "boonIds": null,
             "cardIdModInfos": {
-                "$id": 225,
-                "$type": 12,
+                "$id": 228,
+                "$type": 13,
                 "comparer": {
-                    "$id": 226,
-                    "$type": 13
+                    "$id": 229,
+                    "$type": 14
                 },
                 "$rlength": 5,
                 "$rcontent": [
                     {
                         "$k": "Gravedigger#0",
                         "$v": {
-                            "$id": 227,
-                            "$type": 14,
+                            "$id": 230,
+                            "$type": 15,
                             "$rlength": 0,
                             "$rcontent": [
                             ]
@@ -1982,8 +2000,8 @@
                     {
                         "$k": "Gravedigger#1",
                         "$v": {
-                            "$id": 228,
-                            "$type": 14,
+                            "$id": 231,
+                            "$type": 15,
                             "$rlength": 0,
                             "$rcontent": [
                             ]
@@ -1992,8 +2010,8 @@
                     {
                         "$k": "Gravedigger#2",
                         "$v": {
-                            "$id": 229,
-                            "$type": 14,
+                            "$id": 232,
+                            "$type": 15,
                             "$rlength": 0,
                             "$rcontent": [
                             ]
@@ -2002,8 +2020,8 @@
                     {
                         "$k": "FrankNStein#0",
                         "$v": {
-                            "$id": 230,
-                            "$type": 14,
+                            "$id": 233,
+                            "$type": 15,
                             "$rlength": 0,
                             "$rcontent": [
                             ]
@@ -2012,8 +2030,8 @@
                     {
                         "$k": "FrankNStein#1",
                         "$v": {
-                            "$id": 231,
-                            "$type": 14,
+                            "$id": 234,
+                            "$type": 15,
                             "$rlength": 0,
                             "$rcontent": [
                             ]
@@ -2024,7 +2042,7 @@
         }
     },
     "gbcCardsCollected": {
-        "$id": 232,
+        "$id": 235,
         "$type": 9,
         "$rlength": 0,
         "$rcontent": [
@@ -2032,7 +2050,7 @@
     },
     "ouroborosDeaths": 0,
     "unlockedAchievements": {
-        "$id": 233,
+        "$id": 236,
         "$type": "49|System.Collections.Generic.List`1[[Achievement, Assembly-CSharp]], mscorlib",
         "$rlength": 2,
         "$rcontent": [
@@ -2041,13 +2059,13 @@
         ]
     },
     "ascensionData": {
-        "$id": 234,
+        "$id": 237,
         "$type": "50|DiskCardGame.AscensionSaveData, Assembly-CSharp",
         "dialogueData": {
-            "$id": 235,
+            "$id": 238,
             "$type": 3,
             "eventData": {
-                "$id": 236,
+                "$id": 239,
                 "$type": 4,
                 "$rlength": 0,
                 "$rcontent": [
@@ -2055,10 +2073,10 @@
             }
         },
         "progressionData": {
-            "$id": 237,
+            "$id": 240,
             "$type": 6,
             "learnedAbilities": {
-                "$id": 238,
+                "$id": 241,
                 "$type": 7,
                 "$rlength": 30,
                 "$rcontent": [
@@ -2095,28 +2113,28 @@
                 ]
             },
             "learnedMechanics": {
-                "$id": 239,
+                "$id": 242,
                 "$type": 8,
                 "$rlength": 0,
                 "$rcontent": [
                 ]
             },
             "learnedCards": {
-                "$id": 240,
+                "$id": 243,
                 "$type": 9,
                 "$rlength": 0,
                 "$rcontent": [
                 ]
             },
             "introducedCards": {
-                "$id": 241,
+                "$id": 244,
                 "$type": 9,
                 "$rlength": 0,
                 "$rcontent": [
                 ]
             },
             "introducedConsumables": {
-                "$id": 242,
+                "$id": 245,
                 "$type": 9,
                 "$rlength": 0,
                 "$rcontent": [
@@ -2124,17 +2142,17 @@
             }
         },
         "stats": {
-            "$id": 243,
+            "$id": 246,
             "$type": "51|DiskCardGame.AscensionStatsData, Assembly-CSharp",
             "currentRunStats": {
-                "$id": 244,
+                "$id": 247,
                 "$type": "52|System.Collections.Generic.List`1[[DiskCardGame.AscensionStat, Assembly-CSharp]], mscorlib",
                 "$rlength": 0,
                 "$rcontent": [
                 ]
             },
             "allTimeStats": {
-                "$id": 245,
+                "$id": 248,
                 "$type": 52,
                 "$rlength": 0,
                 "$rcontent": [
@@ -2143,21 +2161,21 @@
         },
         "challengeLevel": 1,
         "itemUnlockEvents": {
-            "$id": 246,
+            "$id": 249,
             "$type": 2,
             "$rlength": 0,
             "$rcontent": [
             ]
         },
         "activeChallenges": {
-            "$id": 247,
+            "$id": 250,
             "$type": "53|System.Collections.Generic.List`1[[DiskCardGame.AscensionChallenge, Assembly-CSharp]], mscorlib",
             "$rlength": 0,
             "$rcontent": [
             ]
         },
         "conqueredChallenges": {
-            "$id": 248,
+            "$id": 251,
             "$type": 53,
             "$rlength": 0,
             "$rcontent": [
@@ -2165,7 +2183,7 @@
         },
         "currentStarterDeck": "Vanilla",
         "conqueredStarterDecks": {
-            "$id": 249,
+            "$id": 252,
             "$type": 9,
             "$rlength": 0,
             "$rcontent": [
@@ -2176,7 +2194,7 @@
         "currentOuroborosDeaths": 0,
         "numRunsSinceReachedFirstBoss": 0,
         "oilPaintingState": {
-            "$id": 250,
+            "$id": 253,
             "$type": 25,
             "isAscension": true,
             "puzzleSolution": null,
